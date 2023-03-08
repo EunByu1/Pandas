@@ -9,3 +9,11 @@ sr = pd.Series(list_data)
 
 # 변수 sr에 저장되어 있는 시리즈 객체 출력
 print(sr)
+
+# 변수 idx에 인덱스 배열 저장
+idx = sr.index
+print("idx : ", idx)
+
+# 변수 val에 데이터 값 배열 저장 
+val = sr.values
+print("val : ", val)
